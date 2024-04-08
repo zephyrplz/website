@@ -1,3 +1,7 @@
+#myParagraph:hover {
+  color: #152a50;
+}
+
 @media (max-width: 700px) {
   .sidebar {
     width: 70px; /* Adjust the width to fit on mobile */

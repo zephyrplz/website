@@ -1,1 +1,26 @@
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100px; /* Adjust the width to fit on mobile */
+    padding: 10px; /* Adjust the padding to be smaller on mobile */
+    /* Other styles to adjust positioning and size of text and icons */
+  }
+
+  .sidebar img {
+    width: 80px; /* Adjust the logo size to fit the new sidebar size */
+    /* Adjust other properties as needed */
+  }
+
+  .sidebar div a {
+    /* Adjust font-size and padding for smaller screens */
+    font-size: 0.8em; /* Smaller text on mobile */
+    padding: 5px;
+  }
+
+  .bg-image {
+    background-position: right center; /* This focuses on the right side of the image */
+    /* You may also need to adjust background-size depending on your needs */
+  }
+
+  /* You can also hide certain elements that don't fit well on mobile */
+}
 

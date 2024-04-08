@@ -1,40 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <title>Your Name</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zephyr</title>
+<link rel="icon" href="https://zephyrplz.github.io/website/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="https://zephyrplz.github.io/website/favicon.ico" type="image/x-icon">
+<style>
+  body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Helvetica, sans-serif; /* Use your preferred font here */
+    font-size: 13px;
+    font-weight: lighter;
+  }
+  .bg-image {
+    /* The image used */
+    background-image: url('https://zephyrplz.github.io/website/bg.jpg');
+    
+    /* Full height */
+    height: 100%;
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .sidebar {
+    position: fixed;
+    right: 0;
+    bottom: 80px; /* Adjust this value to control the vertical offset from the bottom */
+    background-color: #f7ecd3; /* Adjust to match your desired sidebar color */
+    color: #f4edcf; /* Adjust to match your desired text/icon color */
+    padding: 40px; /* Adjust padding to control the size */
+    width: 500px; /* Adjust width to your preference */
+    border-radius: 20px 0px 0px 20px;
+}
+
+  .sidebar img {
+    display: block; /* This will ensure the logo takes up the whole width of the sidebar */
+    max-width: 60%; /* This makes the image responsive, it will never be larger than the sidebar */
+    height: auto; /* This maintains the aspect ratio of the image */
+    margin-bottom: 5px; /* Space between logo and the rest of content, adjust as needed */
+  }
+
+  .sidebar div a {
+    color: #dd6e3c; /* Link text color */
+    text-decoration: none; /* No underline */
+    padding: 5px; /* Spacing around the link text */
+    display: inline-block; /* To allow padding and margin */
+    margin-right: 10px; /* Spacing between items, adjust as needed */
+
+  }
+
+</style>
 </head>
 <body>
-    <div class="grid-2">
-        <div class="section-1">
-            <i class="fas fa-code fa-5x white"></i>
-            <h2>FirstName LastName</h2>
-            <p>City,Country.</p>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-linkedin"></i></a>
-            <a href="#"><i class="fab fa-github"></i></a>
-        </div>
-        <div class="section-2">
-            <h2>About</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quas sint et nihil iusto eius nostrum sit error, repellat optio quisquam! Magnam dolore iusto cumque. Nostrum error iste neque maiores.</p>
-            <h2>Experience</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis in maiores autem quidem.</p>
 
-            <h2>Skills</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis in maiores autem quidem obcaecati excepturi! Cupiditate eaque itaque magni voluptatibus neque nobis est dolor? Atque sunt minus ipsa asperiores. At.</p>
-            <h2>Projects</h2>
-            <a href="#">Project 1</a>
-            <a href="#">Project 2</a>
-            <a href="#">Project 3</a>
-            <a href="#">Project 4</a>
-            <a href="#">Project 5</a>
-            <h2>Contact</h2>
-            <p>myEmail@email.com</p>
-        </div>
+<div class="bg-image"></div>
+
+<div class="sidebar">
+    <a href="https://www.youtube.com/watch?v=dz6NEtkFujo">
+        <img src="https://zephyrplz.github.io/website/logo.png" alt="Logo">
+      </a>
+      <div>
+        <a href="https://zephyrplz.com/">home</a>
+        <a href="https://zephyrplz.com/music">music</a>
+        <a href="https://zephyrplz.com/shop">shop</a>
+
+
+      </div>
+      <!-- Your additional sidebar content here -->
     </div>
+
+  </div>
+
 </body>
 </html>

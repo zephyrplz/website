@@ -54,14 +54,21 @@
 
   }
 
+  .sidebar div a:hover {
+  color: #152a50;
+
+  }
+
    @media (max-width: 768px) {
     body, html {
       margin: 0;
       padding: 0;
       height: 100%;
       font-family: Helvetica, sans-serif; /* Use your preferred font here */
-      font-size: 9px;
+      font-size: 10px;
       font-weight: lighter;
+
+    }
        
     .sidebar {
       width: 50%; /* Example for a larger screen like a tablet */
@@ -69,17 +76,23 @@
       margin-bottom: 2px; /* Space between logo and the rest of content, adjust as needed */
       /* Other responsive adjustments */
     }
-    /* More styles */
+
+    .sidebar div a {
+      margin-right: 5px; /* Spacing between items, adjust as needed */
+      padding: 2px; 
   }
+
 
   @media (max-width: 480px) {
     body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    font-family: Helvetica, sans-serif; /* Use your preferred font here */
-    font-size: 9px;
-    font-weight: lighter;
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: Helvetica, sans-serif; /* Use your preferred font here */
+      font-size: 10px;
+      font-weight: lighter;
+
+    }
       
     .sidebar {
       width: 80%; /* Example for small mobile screens */
@@ -89,7 +102,9 @@
     }
 
     .sidebar div a {
-    margin-right: 5px; /* Spacing between items, adjust as needed */
+      margin-right: 5px; /* Spacing between items, adjust as needed */
+      padding: 2px;
+      
   }
 
 </style>

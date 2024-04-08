@@ -20,6 +20,7 @@
     font-family: Helvetica, sans-serif; /* Use your preferred font here */
     font-size: 14px;
     font-weight: lighter;
+    color:#152a50
   }
   
   .bg-image {
@@ -38,11 +39,11 @@
     right: 0;
     bottom: 80px; /* Adjust this value to control the vertical offset from the bottom */
     background-color: #f7ecd3; /* Adjust to match your desired sidebar color */
-    color: #f4edcf; /* Adjust to match your desired text/icon color */
+    color: #152a50; /* Adjust to match your desired text/icon color */
     padding: 40px; /* Adjust padding to control the size */
     width: 28%; /* Adjust width to your preference */
     border-radius: 20px 0px 0px 20px;
-}
+  }
 
   .sidebar img {
     padding: 0;
@@ -54,11 +55,11 @@
 
   .sidebar div a {
     padding: 0;
-    color: #dd6e3c; /* Link text color */
+    color: #dd6e3c;
     text-decoration: none; /* No underline */
     display: inline-block; /* To allow padding and margin */
     margin-right: 15px; /* Spacing between items, adjust as needed */
-    margin-bottom: 8px;
+    margin-bottom: 1px;
   }
 
   .sidebar div a:hover {
@@ -67,10 +68,20 @@
   }
 
 
+  .copyright {
+    color: #152a50; /* Change as per your sidebar's color scheme */
+    font-size: 8px; /* Adjust the font size as needed */
+    margin-bottom: 0px;
+    margin-top: 0px;
+    line-height: 0.3;
+}
+
   .social-icons .icon {
     display: inline-block;
     margin: 0px; /* Space between icons */
     margin-right: 4px;
+    margin-bottom: 5px;
+    margin-top: 8px;
     font-size: 13px;
     width: 30px; /* Diameter of the circular icons */
     height: 30px; /* Diameter of the circular icons */
@@ -86,6 +97,7 @@
     color: #ffffff; /* Color of icon on hover */
     background-color: #dd6e3c; /* Background color on hover */
   }
+
 
    @media (max-width: 768px) {
     body, html {
@@ -149,8 +161,13 @@
             <i class="fa-brands fa-instagram"></i>
           </a>
         </div>
+
+        <div class="copyright">
+          <p>creative direction by taylor nguyen</p>
+          <p>website design by taylor nguyen</p>
+          <p>© 2024 zephyr studios</p>
+        </div>
       </div>
   </div>
-
 </body>
 </html>

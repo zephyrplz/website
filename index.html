@@ -3,28 +3,30 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://kit.fontawesome.com/6933327cef.js" crossorigin="anonymous"></script>
 <title>Zephyr</title>
+
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
 <link rel="manifest" href="site.webmanifest">
+
 <style>
   body, html {
     margin: 0;
     padding: 0;
     height: 100%;
     font-family: Helvetica, sans-serif; /* Use your preferred font here */
-    font-size: 13px;
+    font-size: 14px;
     font-weight: lighter;
   }
+  
   .bg-image {
     /* The image used */
     background-image: url('https://zephyrplz.github.io/website/bg2.jpg');
-    
     /* Full height */
     height: 100%;
-    
     /* Center and scale the image nicely */
     background-position: right 0px top 0px;
     background-repeat: no-repeat;
@@ -55,13 +57,34 @@
     color: #dd6e3c; /* Link text color */
     text-decoration: none; /* No underline */
     display: inline-block; /* To allow padding and margin */
-    margin-right: 10px; /* Spacing between items, adjust as needed */
-
+    margin-right: 15px; /* Spacing between items, adjust as needed */
+    margin-bottom: 8px;
   }
 
   .sidebar div a:hover {
   color: #152a50;
+  transition: color 0.3s;
+  }
 
+
+  .social-icons .icon {
+    display: inline-block;
+    margin: 0px; /* Space between icons */
+    margin-right: 4px;
+    font-size: 13px;
+    width: 30px; /* Diameter of the circular icons */
+    height: 30px; /* Diameter of the circular icons */
+    border-radius: 50%; /* Makes the icons circular */
+    color: #ffffff; /* Initial icon color */
+    background-color: #152a50; /* Background color of icons */
+    line-height: 30px; /* Centers the icon vertically */
+    text-align: center; /* Centers the icon horizontally */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+  }
+
+  .social-icons .icon:hover {
+    color: #ffffff; /* Color of icon on hover */
+    background-color: #dd6e3c; /* Background color on hover */
   }
 
    @media (max-width: 768px) {
@@ -70,7 +93,7 @@
       padding: 0;
       height: 100%;
       font-family: Helvetica, sans-serif; /* Use your preferred font here */
-      font-size: 10px;
+      font-size: 14px;
       font-weight: lighter;
     }  
     .sidebar {
@@ -82,9 +105,10 @@
       padding: 0;
     }
     .sidebar div a {
-      margin-right: 5px; /* Spacing between items, adjust as needed */
+      margin-right: 10px; /* Spacing between items, adjust as needed */
       padding: 0;
   }
+}
 
 </style>
 </head>
@@ -101,9 +125,31 @@
         <a href="https://zephyrplz.com/music">music</a>
         <a href="https://zephyrplz.com/shop">shop</a>
       </div>
-      <!-- Your additional sidebar content here -->
-    </div>
 
+        <div class="social-icons">
+          <a href="https://facebook.com" class="icon facebook">
+            <i class="fa-brands fa-spotify"></i>
+          </a>
+          <a href="https://twitter.com" class="icon twitter">
+            <i class="fa-brands fa-apple"></i>
+          </a>
+          <a href="https://instagram.com" class="icon instagram">
+            <i class="fa-brands fa-youtube"></i>
+          </a>
+          <a href="https://instagram.com" class="icon instagram">
+            <i class="fa-brands fa-soundcloud"></i>
+          </a>
+          <a href="https://instagram.com" class="icon instagram">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+          <a href="https://instagram.com" class="icon instagram">
+            <i class="fa-brands fa-x-twitter"></i>
+          </a>
+          <a href="https://instagram.com" class="icon instagram">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </div>
+      </div>
   </div>
 
 </body>
